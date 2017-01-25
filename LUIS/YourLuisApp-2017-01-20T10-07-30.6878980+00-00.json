@@ -1,0 +1,64 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "YourLuisApp-2017-01-20T10:07:30.6878980+00:00",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "Services"
+    },
+    {
+      "name": "Welcome"
+    },
+    {
+      "name": "WicLocations"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "asdf",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lol",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Welcome",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Welcome",
+      "entities": []
+    },
+    {
+      "text": "what services are available",
+      "intent": "Services",
+      "entities": []
+    },
+    {
+      "text": "what are the locations that accept wic",
+      "intent": "WicLocations",
+      "entities": []
+    },
+    {
+      "text": "wic locations",
+      "intent": "WicLocations",
+      "entities": []
+    }
+  ]
+}
