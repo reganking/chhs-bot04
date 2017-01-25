@@ -35,7 +35,7 @@ var intents = new builder.IntentDialog({ recognizers: [recognizer] })
     session.send('\'%s\' not found', session.message.text);
 })
 .matches('Welcome', (session, args) => {
-    session.send('Hi! How can I help you?', session.message.text);
+    session.send('¡Holla! How can I help you?', session.message.text);
 })
 .matches('Services', (session, args) => {
     https.get('https://chhs.data.ca.gov/resource/v6p5-i3t9.json', (res) => {
