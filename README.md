@@ -1,7 +1,7 @@
 ## Status
 - [x] Web ([natebass.github.io/chhs-bot](https://natebass.github.io/chhs-bot))
 - [ ] Facebook Messenger ([facebook.com/chhsbot](https://facebook.com/chhsbot))
-- [ ] Slack ([#sac-tech](https://sac-tech.slack.com)))
+- [ ] Slack ([#sac-tech](https://sac-tech.slack.com))
 
 
 
