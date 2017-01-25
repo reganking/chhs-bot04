@@ -64,6 +64,8 @@ var intents = new builder.IntentDialog({ recognizers: [recognizer] })
 });
 
 bot.dialog('/', intents);
+
+// Get all WIC vendors in a zip code
 bot.dialog('getLocation', [
     function (session, args) {
         builder.Prompts.text(session, "Please enter your zip code.");
@@ -92,7 +94,38 @@ bot.dialog('getLocation', [
             session.send(e);
         });
     }
-])
+]);
+
+// Get all Open Data Apis
+// bot.dialog('allApis', [
+//     function (session, args) {
+//         builder.Prompts.text(session, "Please enter the name of the API you want to find more about.");
+//     },
+//     function (session, result) {
+//         var name = result.response;
+//         https.get(`https://chhs.data.ca.gov/resource/2x4a-6af9.json?name=${name}`, (res) => {
+//             var rawData = "";
+//             res.on('data', (d) => {
+//                 rawData += d;
+//             });
+//             res.on('end', () => {
+//               let parsedData = JSON.parse(rawData);
+//               if (parsedData.length === 0) {
+//                 session.send(`No API found with the name ${name} (must match exactly)`);
+//               } else {
+//                 let x = "";
+//                 parsedData.forEach((it) => {
+//                   x += `${it.description}`;
+//                 });
+//                 session.send(x);
+//               }
+//             });
+//         }).on('error', (e) => {
+//             session.send(e);
+//         });
+//     }
+// ]);
+
 if (useEmulator) {
     var restify = require('restify');
     var server = restify.createServer();
