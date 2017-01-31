@@ -1,6 +1,14 @@
-Where are the nearest wic vendors?
-This can be useful for people trying to find a store that accepts WIC.
+Question: "Where are the nearest wic vendors?"
+Variations: wic, food
+Use: This can be useful for people trying to find a store that accepts WIC.
+User types: Social
 
+Question: "Money"
+Variations: pay, bitcoin, trade, trans
+Use: This could be useful for people trying to check their debit card account balance. Especially interesting for users with a "representative payee" that might also provide additional information useful to the user.
+User types: Social
 
-What are the available datasets in chhs.data.gov?
-This can be useful for hackers trying to find more information about what data is available.
+Question: "What are the available datasets in chhs.data.gov?"
+Variations: chhs data
+Use: This can be useful for hackers trying to find more information about what data is available.
+User types: Hackers / Developers
