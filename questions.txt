@@ -8,6 +8,11 @@ Variations: pay, bitcoin, trade, trans
 Use: This could be useful for people trying to check their debit card account balance. Especially interesting for users with a "representative payee" that might also provide additional information useful to the user.
 User types: Social
 
+Question: "Sick"
+Variations: help, hurt, doctor, health
+Use: This could be useful for people that need medical assistance.
+User types: Social
+
 Question: "What are the available datasets in chhs.data.gov?"
 Variations: chhs data
 Use: This can be useful for hackers trying to find more information about what data is available.
